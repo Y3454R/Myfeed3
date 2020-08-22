@@ -1,0 +1,139 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif; /*my choice*/
+    /*height: 100%;
+    min-height: 100%;*/
+}
+
+body {
+    line-height: 17px;
+    background-color: #e9ecef;
+}
+
+.top_bar {
+    width: 100%;
+    min-width: 1050px;
+    height: 48px;
+    background-color: #0054ff36;
+    border-bottom: 0.25em solid #2f3542;
+    margin: 0 0 10px 0; 
+    display: inline-flex; /*bujhi nai */
+    position: fixed;
+    z-index: 10; /*bujhi nai*/
+}
+
+.logo a{
+    margin-left: 10px;
+    font-size: 38;
+    position: relative;
+    top: 9px;
+    color: #0014ff85;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+    right: 10px;
+    position: absolute;
+    margin: 10px;
+}
+
+nav a{
+    position: relative;
+    color: #2f3542;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 5px; /* my change */
+    margin-left: 5px; /* my change */
+}
+
+nav a:hover {
+    border-bottom: 5px solid #1e90ff;
+}
+
+.wrapper {
+    margin: 0 auto;
+    top: 50px;
+    position: relative;
+    padding: 0 10px;
+    width: 75%;
+    min-width: 950px;
+}
+
+.column {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #d3d3d3;
+    z-index: -1;
+}
+
+.user_details {
+    width: 250px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.user_details_left_right {
+    width: 125px;
+    display: inline-block;
+    position: absolute;
+}
+
+.user_details img {
+    height: 125px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.main_column {
+    float: right;
+    width: 70%;
+    z-index: -1;
+    min-height: 160px;
+}
+
+.post_form {
+    width: 100%;
+}
+.post_form textarea {
+    width: 80%;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 1px solid #d3d3d3;
+    font-size: 12px;
+    padding: 5px;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+.post_form input[type="submit"] {
+    background-color:  #0014ff85;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    position: absolute;
+    width: 10%;
+    height: 50px;
+    font-size: 90%;
+    cursor: pointer;
+}
+
+.post_form input[type="submit"]:hover {
+    background-color: #0055ffcc;
+    border: 1px solid black;
+    cursor: pointer
+}
+
+.post_form input[type="submit"]:active {
+    background-color: black;
+    border: 1px solid white;
+  }
